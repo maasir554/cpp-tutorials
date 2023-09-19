@@ -39,9 +39,16 @@ int main(){
     vector<int> vec2 = {1,5,9,11,64};
     
     cout << "Second vector: ";
+    
     for(auto elem : vec2){
         cout << elem << " ";
     }
+    cout << "\n--------------------------\n";
 
+    // for initializing a vector with initial size and default value for each item:
+
+    vector<int> vec3(10,108);
+    myPrinter(vec3);
+    
     return 0;
 }
