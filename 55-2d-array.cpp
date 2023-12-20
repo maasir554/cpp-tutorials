@@ -72,7 +72,7 @@ int Transpose(int arr[][4], int row, int col){
 int main(){
     // atleast number of columns shoud be specified.
     // specifying number of rows is optional
-    // when passing a 2d array to a function, alse pass column count.
+    // when passing a 2d array to a function, also pass column count.
     int arr[3][4] = {
         {10,20,30,40},
         {100,200,300,400},
